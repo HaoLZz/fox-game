@@ -1,10 +1,10 @@
 export const ICONS = ["fish", "poop", "weather"];
-export const TICK_RATE = 1500;
+export const TICK_RATE = 3000;
 export const SCENES = ["sunny", "rain"];
 export const RAIN_CHANCE = 0.2;
 
-export const DAY_LENGTH = 20;
-export const NIGHT_LENGTH = 15;
+export const DAY_LENGTH = 40;
+export const NIGHT_LENGTH = 20;
 
 export const getNextHungerTime = (clock) =>
   Math.floor(Math.random() * 3) + 5 + clock;
